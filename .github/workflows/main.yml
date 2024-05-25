@@ -13,4 +13,4 @@ jobs:
         host: ${{ ftp.nutriamaral.hospedagemdesites.ws }} 
         user: ${{ nutriamaral }}
         password: ${{ Hl47076961132425#@ }}
-        localDir: "public_htm"
+        localDir: "public_html"
