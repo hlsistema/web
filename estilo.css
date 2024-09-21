@@ -1,14 +1,19 @@
 h1 {
-    color: rgb(43, 46, 226);
+    color: rgb(252, 15, 133);
     text-align: center;
     text-decoration: underline;
-color: pink;
 }
 
 h3 {
-    color: pink;
+    color: rgb(51, 7, 248);
     text-align: center;
 }
+
+body {
+    background-image: url("/image/Vira1.jpg");
+    background-repeat: no-repeat;
+    background-size:auto;
+   }
 
 form {
     text-align: center;

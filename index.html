@@ -10,15 +10,30 @@
 <!--Área de informação-->    
 </head>
     <br>
-    <form>
-        <label>Usuário</label><br>
-        <textarea class="Usuario"></textarea><br>
-        <label>Senha</label><br>
-        <textarea class="Senha"></textarea><br>
-        <button class="Logar">Entrar</button>
-    </form>
-    <background>
+    <form onsubmit="Acessar(e)"></form>
+        <label for="usuario">Usuario:</label><p></p>
+        <input type="text" id="usuario" name="usuario" required>
 
-    </background>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+        
+        <button type="submit">Logar</button>
+    </form>
+
+		<script>
+		    function Acessar(e) {
+		        event.preventDefault();
+
+		        var usuario = document.getElementById("usuario").value;
+		        var senha = document.getElementById("senha").value;
+		        
+		        var dadosFormulario = {
+		            usuario: usuario,
+		            senha: senha
+		        };
+
+		        console.log("Dados do Formulário:", dadosFormulario);
+		    }
+		</script>
 </body>
 <!DOCTYPE html>

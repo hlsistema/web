@@ -1,0 +1,36 @@
+h1 {
+    color: rgb(252, 15, 133);
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    color: rgb(51, 7, 248);
+    text-align: center;
+}
+
+body {
+    background-image: url("paper.gif");
+    background-color: #06fafa;
+   }
+
+form {
+    text-align: center;
+    font-size: 100%;
+    color: blue
+}
+
+.Usuario {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Senha {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Logar {
+    text-align: center;
+    font-size: 150%;
+}
