@@ -10,10 +10,10 @@ h3 {
 }
 
 body {
-    background-image: url("/image/Vira1.jpg");
+    background-image: url("/image/hlsistema.png");
     background-repeat: no-repeat;
-    background-size:auto;
-   }
+    background-size: 100px 100px;
+}
 
 form {
     text-align: center;
@@ -33,5 +33,5 @@ form {
 
 .Logar {
     text-align: center;
-    font-size: 150%;
+    font-size: 100%;
 }
