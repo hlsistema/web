@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cadastro Usuários</title>
+</head>
+
+<body>
+    <h1>Cadastro Usuários</h1>
+    <form action="/cadastrar" method="POST">
+        <fieldset>
+            <legend>Informações do Usuario</legend>
+            <label for="nomeUsuario">Nome:</label>
+            <input type="text" id="nomeUsuario" name="nomeUsuario" required /><br /><br />
+
+            <label for="emailUsuario">Email:</label>
+            <input type="email" id="emailUsuario" name="emailUsuario" required /><br /><br />
+
+            <label for="telefoneUsuario">Telefone:</label>
+            <input type="tel" id="telefoneUsuario" name="telefoneUsuario" /><br /><br />
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações do Usuário</legend>
+            <label for="usuario">Nome de Usuário:</label>
+            <input type="text" id="usuario" name="usuario" required /><br /><br />
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required /><br /><br />
+
+            <label for="confirmaSenha">Confirmar Senha:</label>
+            <input type="password" id="confirmaSenha" name="confirmaSenha" required /><br /><br />
+        </fieldset>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+
+</html>

@@ -1,40 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <title>Sistema de Gestão - EV</title>
-    <link rel="stylesheet" href="estilo.css">
-    <script src="arquivo.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tela de Login</title>
 </head>
 <body>
-    <h1>Controle de Acesso</h1>
-    <!--Área de informação-->
-
-    <form onsubmit="Acessar(event)">
-        <label for="usuario">Usuario:</label>
-        <input type="text" id="usuario" name="usuario" required>
+    <h1>Login</h1>
+    <form action="/principal.html" method="POST">
+        <label for="usuario">Nome de Usuário:</label>
+        <input type="text" id="usuario" name="usuario" required /><br /><br />
 
         <label for="senha">Senha:</label>
-        <input type="password" id="senha" name="senha" required>
-        <button type="submit">Logar</button>
+        <input type="password" id="senha" name="senha" required /><br /><br />
+
+        <button type="submit">Entrar</button>
     </form>
-
-    <script>
-        function Acessar(e) {
-            e.preventDefault();
-
-            var usuario = document.getElementById("usuario").value;
-            var senha = document.getElementById("senha").value;
-
-            var dadosFormulario = {
-                usuario: usuario,
-                senha: senha
-            };
-
-            console.log("Dados do Formulário:", dadosFormulario);
-        }
-    </script>
-
-    <!-- mover a inclusão do arquivo.js para cá -->
-    <script src="arquivo.js"></script>
 </body>
 </html>
